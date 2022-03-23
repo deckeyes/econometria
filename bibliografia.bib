@@ -1,57 +1,170 @@
-@book{bachelard2009,
-  title={A poética do devaneio},
-  author={Bachelard, Gaston},
-  year={2009},
-  Edition = {3},
-  publisher={Martins Fontes},
-  address={Rio de Janeiro}
+@book{
+  title={Econometria Básica},
+  author={Gujarati, Damodar},
+  year={2006},
+  publisher={Editora Campus},
+  
 }
 
-@book{bachelard1971,
-  title={Épistémologie},
-  author={Bachelard, Gaston and Lecourt, Dominique and Beese, Henriette and Balke, Friedrich},
-  volume={40},
-  year={1971},
-  publisher={Presses universitaires de France},
-  address={Paris}
+@book{
+  title={Macroeconomia: Teoria e Política Econômica},
+  author={Blanchar, Olivier},
+  volume={Tradução da 2 Ed.},
+  year={2001},
+  publisher={Elsevier}
 }
 
-@book{bachelard1985,
-  title={O novo espírito científico},
-  author={Bachelard, Gaston},
-  year={1985},
-  publisher={Tempo Brasileiro},
-  address={Rio de Janeiro}
+@book{IBGE. Disponível em: https://www.ibge.gov.br/home/estatistica/indicadores/trabalhoerendimento/pnad_continua/default.shtm. Acesso em: março de 2022.
 }
 
-@book{kant1995,
-  title={Fundamentação da metafísica dos costumes},
-  author={Kant, Immanuel and Quintela, Paulo},
-  year={1995},
-  publisher={Editora Vozes Limitada},
-  address={Lisboa}
-}
+Apendice
+Modelo 1: MQO, usando as observações 2012:1-2018:2 (T = 26)
+Variável dependente: INFBR
 
-@book{kant2017,
-  title={Crítica da razão prática},
-  author={Kant, Immanuel},
-  year={2017},
-  publisher={Editora Vozes Limitada},
-  address={São Paulo}
-}
+ 
+Coeficiente
+Erro Padrão
+razão-t
+p-valor
 
-@book{nietzsche1997,
-  title={Nietzsche: untimely meditations},
-  author={Nietzsche, Friedrich},
-  year={1997},
-  publisher={Cambridge University Press},
-  address={Cambridge}
-}
 
-@book{dias2011,
-  title={Nietzsche, vida como obra de arte},
-  author={Dias, Rosa},
-  publisher={Civilização Brasileira},
-  year={2011},
-  address={Rio de Janeiro}
-}
+const
+1,65270
+0,417663
+3,957
+0,0007
+***
+INFEsper
+0,377548
+0,139376
+2,709
+0,0131
+**
+TxDespr
+-0,164501
+0,0639661
+-2,572
+0,0178
+**
+Dummy1
+1,05554
+0,302939
+3,484
+0,0022
+***
+Dummy2
+-0,834299
+0,339253
+-2,459
+0,0227
+**
+
+
+Média var. dependente
+ 1,527308
+
+
+D.P. var. dependente
+ 0,808755
+Soma resid. quadrados
+ 6,091500
+
+
+E.P. da regressão
+ 0,538583
+R-quadrado
+ 0,627479
+
+
+R-quadrado ajustado
+ 0,556523
+F(4, 21)
+ 8,843177
+
+
+P-valor(F)
+ 0,000238
+Log da verossimilhança
+-18,02677
+
+
+Critério de Akaike
+ 46,05355
+Critério de Schwarz
+ 52,34403
+
+
+Critério Hannan-Quinn
+ 47,86498
+rô
+ 0,023652
+
+
+Durbin-Watson
+ 1,937263
+
+
+Teste de não-linearidade (quadrados) -
+ Hipótese nula: a relação é linear
+ Estatística de teste: LM = 1,05972
+ com p-valor = P(Qui-quadrado(2) > 1,05972) = 0,588688
+
+Teste RESET para especificação (apenas quadrados) -
+ Hipótese nula: a especificação é adequada
+ Estatística de teste: F(1, 20) = 3,48685
+ com p-valor = P(F(1, 20) > 3,48685) = 0,0765854
+
+Teste de White para a heteroscedasticidade -
+ Hipótese nula: sem heteroscedasticidade
+ Estatística de teste: LM = 22,9339
+ com p-valor = P(Qui-quadrado(11) > 22,9339) = 0,0180581
+
+
+Teste da normalidade dos resíduos -
+ Hipótese nula: o erro tem distribuição Normal
+ Estatística de teste: Qui-quadrado(2) = 6,91683
+ com p-valor = 0,0314796
+
+Teste de Chow para a falha estrutural na observação 2015:1 -
+ Hipótese nula: sem falha estrutural
+ Estatística de teste: F(4, 17) = 0,74082
+ com p-valor = P(F(4, 17) > 0,74082) = 0,577141
+
+Teste LM para autocorrelação até a ordem 4 -
+ Hipótese nula: sem autocorrelação
+ Estatística de teste: LMF = 1,99937
+ com p-valor = P(F(4, 17) > 1,99937) = 0,140337
+
+Colinearidade
+Fatores de Inflação da Variância (FIV)
+Valor mínimo possível = 1,0
+Valores > 10,0 podem indicar um problema de colinearidade
+
+    INFEsper    1,086
+     TxDespr    1,064
+      Dummy1    1,071
+      Dummy2    1,053
+
+VIF(j) = 1/(1 - R(j)^2), onde R(j) é o coeficiente de correlação múltipla
+entre a variável j e a outra variável independente
+
+Diagnósticos de colinearidade de Belsley-Kuh-Welsch:
+                         --- proporções de variância ---
+    lambda      cond     const  INFEsper   TxDespr    Dummy1    Dummy2
+     3,072     1,000     0,006     0,017     0,011     0,021     0,015
+     1,001     1,752     0,000     0,000     0,000     0,317     0,501
+     0,697     2,100     0,002     0,036     0,002     0,559     0,410
+     0,188     4,048     0,008     0,555     0,250     0,099     0,035
+     0,042     8,586     0,983     0,392     0,737     0,003     0,040
+
+  lambda = autovalores de X'X, maior para o menor
+  cond   = índice condicional
+  nota: as colunas de proporção da variância somam 1
+
+  Erro Médio                       -2,7329e-016
+  Raiz do Erro Quadrado Médio       0,48403
+  Erro Absoluto  Médio              0,36743
+  Erro Percentual Médio            -6,1927
+  Erro Percentual Absoluto Médio    32,228
+  U de Theil                        0,46918
+

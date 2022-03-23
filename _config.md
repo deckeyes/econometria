@@ -1,9 +1,9 @@
 ---
 título: "A Curva de Phillips em Santa Catarina de 2012 a 2018: a relação entre inflação e desemprego"
+
 title: "The Phillips Curve in Santa Catarina from 2012 to 2018: the relationship between inflation and unemployment"
 autor:
-  nome: Isadora Leyes
-  nome: Jonathan Mafra
+  nome: Isadora Leyes e Jonathan Mafra
   titulação: Graduandos em Ciências Econômicas
   afiliação: Department of Economics and International Relations Federal University of Santa Catarina, Brazil. (isad.l@hotmail.com) , (jonathandasilvalima@gmail.com)
 
