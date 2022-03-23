@@ -1,12 +1,11 @@
 ---
-título: "A incogniscibilidade pós-moderna do Ser"
-título-nota: "Esse texto foi gerado automaticamente por um algorítimo com a intenção de ser, além de bastante prolixo, um exemplo de artigo científico. As referências não refletem o pensamento dos autores que aparecem ao longo do texto"
-subtítulo: "Seguindo o fluxo da corrente analítica anglo-saxônica"
-title: "The postmodern unknowability of Being: following the flow of the Anglo-Saxon analytical current"
+título: "A Curva de Phillips em Santa Catarina de 2012 a 2018: a relação entre inflação e desemprego"
+title: "The Phillips Curve in Santa Catarina from 2012 to 2018: the relationship between inflation and unemployment"
 autor:
-  nome: Barbara G. Demartini
-  titulação: Doutora em Filosofia pela Hill Valley College.
-  afiliação: Hill Valley College (bg.demartini@hillvalleycollege.edu).
+  nome: Isadora Leyes
+  titulação: Graduanda em Ciências Econômicas
+  afiliação: Department of Economics and International Relations Federal University of Santa Catarina, Brazil
+
 
 resumo: Este hipertexto, isto é, matriz de textos potencializados em um duplo-devir virtualizante, visa proporcionar uma combinatória proto-semântica de um discurso proposicional a partir de um universo de possíveis. Sua instauração epistemológica é traçada a posteriori pela necessidade de construir-se um conhecimento teórico escamoteado em uma base glossofônica da interioridade da razão, em conssonância com a textualidade apofântica sinteticamente determinável em sua exterioridade do Ser. De maneira sucinta, a interioridade do Ser social, eminentemente enquanto Ser, prova que o nominalismo enquanto princípio teórico undefineddo fundo comum da umanidade.
 palavras-chave: Epistemologia. Dialética. Instituição política. Socio-linguistica.
